@@ -2,9 +2,9 @@ package model;
 
 public class Task {
 
-  private double a;
-  private double b;
-  private Action action;
+  private final double a;
+  private final double b;
+  private final Action action;
 
   public Task(double a, double b, Action action) {
     this.a = a;
